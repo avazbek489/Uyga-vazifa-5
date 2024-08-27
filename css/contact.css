@@ -35,7 +35,7 @@ li {
 
 /* HEADER QISMI */
 
-.header__container {
+.header-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -49,7 +49,7 @@ li {
   margin-bottom: 64px;
 }
 
-.head__right ul {
+.head-right ul {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
@@ -62,7 +62,7 @@ li {
   gap: 42px;
 }
 
-.head__right a {
+.head-right a {
   font-family: Jost;
   font-size: 14px;
   font-weight: 400;
@@ -73,7 +73,7 @@ li {
 }
 
 /* MAIN QISMI */
-.main__container {
+.main-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -93,7 +93,7 @@ li {
   margin-bottom: 164px;
 }
 
-.main__left h1 {
+.main-left h1 {
   font-size: 48px;
   font-weight: 500;
   line-height: 48px;
@@ -101,14 +101,14 @@ li {
   margin-bottom: 32px;
 }
 
-.main__left p {
+.main-left p {
   font-size: 16px;
   font-weight: 400;
   line-height: 26px;
   color: #ffffff;
 }
 
-.main__right h5 {
+.main-right h5 {
   font-size: 15px;
   font-weight: 500;
   line-height: 26px;
@@ -150,7 +150,7 @@ li {
   text-align: right;
 }
 
-.main__right .phone {
+.main-right .phone {
   font-size: 15px;
   font-weight: 500;
   line-height: 26px;
@@ -159,7 +159,7 @@ li {
   border-bottom: 4px solid white;
 }
 
-.main__right .message {
+.main-right .message {
   font-size: 15px;
   font-weight: 500;
   line-height: 26px;
@@ -168,7 +168,7 @@ li {
   border-bottom: 4px solid white;
 }
 
-.main__right a {
+.main-right a {
   background-color: white;
   padding: 17px 18px;
   border-radius: 8px;
@@ -179,7 +179,7 @@ li {
 }
 
 /* CONTACT QISMI */
-.section__container {
+.section-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -196,13 +196,13 @@ li {
   margin-bottom: 160px;
 }
 
-.section__mine1 {
+.section-mine1 {
   background-image: url(../images/home/desktop/Oval-Copy.svg);
   background-repeat: no-repeat;
   background-position: top;
 }
 
-.section__mine1 h5 {
+.section-mine1 h5 {
   font-size: 20px;
   font-weight: 500;
   line-height: 26px;
@@ -210,7 +210,7 @@ li {
   margin-bottom: 32px;
 }
 
-.section__mine2 h5 {
+.section-mine2 h5 {
   font-size: 20px;
   font-weight: 500;
   line-height: 26px;
@@ -218,7 +218,7 @@ li {
   margin-bottom: 32px;
 }
 
-.section__mine3 h5 {
+.section-mine3 h5 {
   font-size: 20px;
   font-weight: 500;
   line-height: 26px;
@@ -226,7 +226,7 @@ li {
   margin-bottom: 32px;
 }
 
-.section__mine1 button {
+.section-mine1 button {
   font-size: 15px;
   font-weight: 500;
   line-height: 21.68px;
@@ -241,7 +241,7 @@ li {
   transition: all 0.5s;
 }
 
-.section__mine2 button {
+.section-mine2 button {
   font-size: 15px;
   font-weight: 500;
   line-height: 21.68px;
@@ -256,7 +256,7 @@ li {
   transition: all 0.5s;
 }
 
-.section__mine3 button {
+.section-mine3 button {
   font-size: 15px;
   font-weight: 500;
   line-height: 21.68px;
@@ -271,25 +271,25 @@ li {
   transition: all 0.5s;
 }
 
-.section__mine2 {
+.section-mine2 {
   background-image: url(../images/home/desktop/Oval-Copy.svg);
   background-repeat: no-repeat;
   background-position: top;
 }
 
-.section__mine3 {
+.section-mine3 {
   background-image: url(../images/home/desktop/Oval-Copy.svg);
   background-repeat: no-repeat;
   background-position: top;
 }
 
 /* FOOOTER QISMI */
-.footer__container {
+.footer-container {
   background-color: #1d1c1e;
   padding: 75px;
 }
 
-.foot__top {
+.foot-top {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -302,7 +302,7 @@ li {
   margin-bottom: 42px;
 }
 
-.foot__top ul {
+.foot-top ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -315,7 +315,7 @@ li {
   gap: 42px;
 }
 
-.foot__top a {
+.foot-top a {
   font-size: 14px;
   font-weight: 400;
   line-height: 14px;
@@ -327,7 +327,7 @@ hr {
   margin-bottom: 31px;
 }
 
-.foot__bottom {
+.foot-bottom {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -339,7 +339,7 @@ hr {
   justify-content: space-between;
 }
 
-.footer__left a {
+.footer-left a {
   font-size: 16px;
   font-weight: 700;
   line-height: 26px;
@@ -347,14 +347,14 @@ hr {
   margin-left: 95px;
 }
 
-.footer__center a {
+.footer-center a {
   font-size: 16px;
   font-weight: 700;
   line-height: 26px;
   color: #ffffff;
 }
 
-.footer__right img {
+.footer-right img {
   width: 24px;
   height: 24px;
   gap: 16px;
@@ -363,7 +363,7 @@ hr {
   transition: all 0.5s;
 }
 
-.footer__right a {
+.footer-right a {
   width: 24px;
   height: 24px;
   margin-right: 16px;
@@ -371,7 +371,7 @@ hr {
 
 /* RESPONSIVE DIZAYN QISMI */
 @media (max-width: 1200px) {
-  .header__container {
+  .header-container {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
@@ -383,7 +383,7 @@ hr {
     padding: 20px;
   }
 
-  .head__right ul {
+  .head-right ul {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
@@ -391,8 +391,8 @@ hr {
     gap: 20px;
   }
 
-  .main__container,
-  .section__container {
+  .main-container,
+  .section-container {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
@@ -405,20 +405,20 @@ hr {
     margin-bottom: 120px;
   }
 
-  .main__left h1 {
+  .main-left h1 {
     font-size: 36px;
     line-height: 42px;
   }
 
-  .main__right {
+  .main-right {
     margin-top: 30px;
   }
 
-  .footer__container {
+  .footer-container {
     padding: 40px;
   }
 
-  .foot__top {
+  .foot-top {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
@@ -429,7 +429,7 @@ hr {
     gap: 20px;
   }
 
-  .foot__bottom {
+  .foot-bottom {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
@@ -443,52 +443,52 @@ hr {
 
 
 @media (max-width: 982px) {
-  .header__container {
+  .header-container {
     padding: 15px;
   }
 
-  .main__container {
+  .main-container {
     padding: 20px;
   }
 
-  .main__left h1 {
+  .main-left h1 {
     font-size: 28px;
     line-height: 36px;
   }
 
-  .main__left p,
-  .main__right h5,
-  .main__right .phone,
-  .main__right .email,
-  .main__right .message {
+  .main-left p,
+  .main-right h5,
+  .main-right .phone,
+  .main-right .email,
+  .main-right .message {
     font-size: 14px;
     line-height: 22px;
   }
 
-  .main__right a {
+  .main-right a {
     padding: 14px 16px;
     font-size: 14px;
   }
 
-  .section__container {
+  .section-container {
     padding: 20px;
     margin-bottom: 80px;
   }
 
-  .footer__container {
+  .footer-container {
     padding: 20px;
   }
 
-  .footer__left a,
-  .footer__center a {
+  .footer-left a,
+  .footer-center a {
     margin-left: 0;
     text-align: center;
     display: block;
     margin-bottom: 10px;
   }
 
-  .footer__right img,
-  .footer__right a {
+  .footer-right img,
+  .footer-right a {
     width: 20px;
     height: 20px;
   }
@@ -496,49 +496,49 @@ hr {
 
 @media (max-width: 576px) {
 
-  .header__container,
-  .main__container,
-  .section__container {
+  .header-container,
+  .main-container,
+  .section-container {
     padding: 10px;
   }
 
-  .main__left h1 {
+  .main-left h1 {
     font-size: 24px;
     line-height: 32px;
   }
 
-  .main__left p {
+  .main-left p {
     font-size: 14px;
     line-height: 20px;
   }
 
-  .main__right {
+  .main-right {
     padding-top: 20px;
   }
 
-  .main__right a {
+  .main-right a {
     width: 100%;
     text-align: center;
     padding: 10px;
   }
 
-  .footer__container {
+  .footer-container {
     padding: 10px;
   }
 
-  .footer__left a,
-  .footer__center a {
+  .footer-left a,
+  .footer-center a {
     text-align: center;
     margin: 0 auto;
     display: block;
     margin-bottom: 10px;
   }
 
-  .footer__right a {
+  .footer-right a {
     margin-right: 10px;
   }
 
-  .footer__right img {
+  .footer-right img {
     width: 20px;
     height: 20px;
   }
